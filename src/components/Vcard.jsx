@@ -5,7 +5,7 @@ const Vcard = ({ details }) => {
   const { url } = details.snippet.thumbnails.standard;
   const { channelTitle,title,publishedAt } = details.snippet;
   const { viewCount } = details.statistics;
-
+//ok
   function formatDateAndAgo(date) {
     // Format the date to display the day (e.g., "Monday")
     const day = moment(date).format('dddd');

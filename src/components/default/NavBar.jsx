@@ -4,7 +4,7 @@ import { sideBarToggler } from "../../utils/toggleSlice";
 
 const NavBar = () => {
   const dispatch=useDispatch()
-
+//o
   // toggler
   const handleClick=()=>{
           dispatch(sideBarToggler())     

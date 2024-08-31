@@ -34,7 +34,7 @@ const SideBar = () => {
       icon: "ri-lightbulb-line",
     }, // Replacing "Travel"
   ];
-
+  //opm
   if (!menu) {
     return (
       <div className=" bg-white h-[90vh] w-[16vw] md:w-[5vw] shadow-2xl pt-1  md:py-2 pl-2 md:px-1 border-r md:border-r-0 border-slate-300 flex flex-col gap-5 md:gap-0">
